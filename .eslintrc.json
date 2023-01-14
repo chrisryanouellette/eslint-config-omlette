@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "google",
+    "plugin:import/recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "plugin:import/typescript",
+    "plugin:testing-library/react",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": 2,
+    "import/order": 2,
+    "require-jsdoc": 0
+  },
+  "overrides": [
+    {
+      "files": ["*.cjs", "*.js"],
+      "rules": {
+        "no-undef": 0,
+        "@typescript-eslint/no-var-requires": 0,
+        "@typescript-eslint/explicit-function-return-type": 0
+      }
+    },
+    {
+      "files": ["**/*.stories.*"],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
+      }
+    }
+  ]
+}
