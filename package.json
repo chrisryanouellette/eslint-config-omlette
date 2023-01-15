@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-omlette",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An EsLint config for Omlettes.",
   "main": "index.js",
   "author": "Christopher Ouellette",
@@ -16,6 +16,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sort-destructure-keys": "^1.4.0",
     "eslint-plugin-storybook": "^0.6.7",
     "eslint-plugin-testing-library": "^5.9.1"
   },
