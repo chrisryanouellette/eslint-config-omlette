@@ -14,12 +14,21 @@
     "plugin:prettier/recommended",
     "plugin:storybook/recommended"
   ],
-  "plugins": [
-    "sort-destructure-keys"
-  ],
+  "plugins": ["sort-destructure-keys"],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": 2,
-    "import/order": 2,
+    "import/order": [
+      "error",
+      {
+        "pathGroups": [
+          {
+            "pattern": "@**/**",
+            "group": "external",
+            "position": "after"
+          }
+        ]
+      }
+    ],
     "require-jsdoc": 0,
     "sort-destructure-keys/sort-destructure-keys": 2
   },
