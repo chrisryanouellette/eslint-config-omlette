@@ -10,6 +10,7 @@
     "plugin:testing-library/react",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:css-import-order/recommended",
     "plugin:prettier/recommended",
     "plugin:storybook/recommended"
   ],
@@ -18,7 +19,7 @@
   ],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": 2,
-    "import/order": ["error", { "warnOnUnassignedImports": true }],
+    "import/order": 2,
     "require-jsdoc": 0,
     "sort-destructure-keys/sort-destructure-keys": 2
   },

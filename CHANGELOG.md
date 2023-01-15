@@ -5,6 +5,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - Added Additional Rules
+
+### Added
+- [eslint-plugin-css-import-order](https://www.npmjs.com/package/eslint-plugin-css-import-order)
+
 ## [1.0.2] - Added Additional Rules
 
 ### Added
