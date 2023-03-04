@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.0.6] - Fix GitHub Workflow
+
+- Moved Github workflow file to correct folder.
+
 ## [1.0.5] - Changelog, Rules Update, & Auto Releases
 
 - The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
